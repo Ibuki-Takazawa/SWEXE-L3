@@ -13,3 +13,40 @@
  *= require_tree .
  *= require_self
  */
+header {
+  background-color: #1DA1F2; /* Twitterのブルー */
+  padding: 10px;
+  position: fixed;
+  width: 200px; /* お好みで調整 */
+  height: 100vh;
+}
+
+#logo a {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin-bottom: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.tweet-button {
+  background-color: #fff;
+  color: #1DA1F2;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+}
