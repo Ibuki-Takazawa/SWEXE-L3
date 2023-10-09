@@ -20,6 +20,7 @@
           <div class="user-info">
             <span class="username">Username</span>
             <span class="handle">@handle</span>
+            <%= ((Time.current - tweet.created_at) / 60).to_i %>分前
             <%= link_to '編集', edit_tweet_path(tweet) %>
           </div>
           <p class="tweet-text">
