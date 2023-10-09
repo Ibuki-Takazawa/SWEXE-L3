@@ -1,6 +1,14 @@
 <%= render "header" %>
 
 <div id="main-content">
+    <div id="tabs">
+        <ul>
+          <li class="active"><a href="#">ツイート</a></li>
+          <li><a href="#">ツイートと返信</a></li>
+          <li><a href="#">メディア</a></li>
+          <li><a href="#">いいね</a></li>
+        </ul>
+    </div>
     <p>
         <%= @tweet.message %>
         <%= ((Time.current - @tweet.tdate)/60).to_i %>分

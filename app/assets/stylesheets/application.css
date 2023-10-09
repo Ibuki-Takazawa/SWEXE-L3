@@ -23,7 +23,7 @@ header {
   position: fixed;
   width: 200px;
   height: 100vh;
-  margin: 200px;
+  margin-left: 200px;
 }
 
 #logo a {
@@ -57,4 +57,34 @@ nav a {
 #main-content {
   margin-left: 400px;
   padding: 20px;
+}
+
+#tabs ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#tabs li {
+  float: left;
+}
+
+#tabs li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#tabs li a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#tabs .active a {
+  background-color: #4CAF50;
+  color: white;
 }
