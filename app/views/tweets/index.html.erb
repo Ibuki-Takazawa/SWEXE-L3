@@ -1,23 +1,25 @@
 <%= render "header" %>
 
-<div id="main-content">
-  <div id="tabs">
-    <ul>
-      <li class="active"><a href="#">ツイート</a></li>
-      <li><a href="#">ツイートと返信</a></li>
-      <li><a href="#">メディア</a></li>
-      <li><a href="#">いいね</a></li>
-    </ul>
-  </div>
-
-  <% if flash[:notice] %>
-    <%= flash[:notice] %>
-  <% end %>
-
-  <% @tweets.each do |tweet| %>
-    <p>
-      <%= tweet.message %>
-      <%= ((Time.current - tweet.created_at)/60).to_i %>分
-    </p>
-  <% end %>
+<div class="container">
+    <div id="main-content">
+      <div id="tabs">
+        <ul>
+          <li class="active"><a href="#">ツイート</a></li>
+          <li><a href="#">ツイートと返信</a></li>
+          <li><a href="#">メディア</a></li>
+          <li><a href="#">いいね</a></li>
+        </ul>
+      </div>
+    
+      <% if flash[:notice] %>
+        <%= flash[:notice] %>
+      <% end %>
+    
+      <% @tweets.each do |tweet| %>
+        <p>
+          <%= tweet.message %>
+          <%= ((Time.current - tweet.created_at)/60).to_i %>分
+        </p>
+      <% end %>
+    </div>
 </div>
