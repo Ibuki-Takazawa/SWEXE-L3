@@ -14,7 +14,7 @@
  *= require_self
  */
 a:visited {
-    color: blue;
+    color: inherit;
 }
 
  
@@ -67,7 +67,7 @@ nav a {
 
 .tweet-button {
   background-color: #1DA1F2;
-  color: white;
+  color: #fff;
   padding: 10px 20px;
   border-radius: 20px;
   font-weight: bold;
