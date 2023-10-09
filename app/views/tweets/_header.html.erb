@@ -12,7 +12,10 @@
       <li><a href="#">リスト</a></li>
       <li><a href="#">プロフィール</a></li>
       <li><a href="#">もっと見る</a></li>
-      <%= link_to "ツイートする", new_tweet_path, class: "tweet-button" %>
+      <div class="specificClass">
+        <%= link_to "ツイートする", new_tweet_path, class: "tweet-button" %>
+      </div>
+
     </ul>
   </nav>
 </header>
