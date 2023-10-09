@@ -104,3 +104,36 @@ nav a {
 #main-content {
   width: 80%;
 }
+
+.tweet {
+  border-bottom: 1px solid #eee;
+  padding: 10px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.username {
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.handle {
+  color: #888;
+  margin-left: 5px;
+}
+
+.tweet-text {
+  margin-top: 10px;
+}
+
+.tweet-actions {
+  margin-top: 10px;
+}
+
+.reply, .retweet, .like {
+  margin-right: 20px;
+  cursor: pointer;
+}

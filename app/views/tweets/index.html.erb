@@ -16,10 +16,20 @@
       <% end %>
     
       <% @tweets.each do |tweet| %>
-        <p>
-          <%= tweet.message %>
-          <%= ((Time.current - tweet.created_at)/60).to_i %>分
-        </p>
+        <div class="tweet">
+          <div class="user-info">
+            <span class="username">Username</span>
+            <span class="handle">@handle</span>
+          </div>
+          <p class="tweet-text">
+            <%= tweet.message %>
+          </p>
+          <div class="tweet-actions">
+            <span class="reply">返信</span>
+            <span class="retweet">リツイート</span>
+            <span class="like">いいね</span>
+          </div>
+        </div>
       <% end %>
     </div>
 </div>
