@@ -13,6 +13,12 @@
  *= require_tree .
  *= require_self
  */
+ 
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
 header {
   position: fixed;
   width: 200px;
@@ -20,7 +26,6 @@ header {
 }
 
 #logo a {
-  color: #fff;
   font-size: 24px;
   font-weight: bold;
   text-decoration: none;
@@ -49,3 +54,7 @@ nav a {
   font-weight: bold;
 }
 
+#main-content {
+  margin-left: 200px;
+  padding: 20px;
+}
