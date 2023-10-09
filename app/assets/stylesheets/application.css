@@ -65,7 +65,7 @@ nav a {
   font-size: 18px;
 }
 
-.tweet-button {
+.specificClass .tweet-button {
   background-color: #1DA1F2;
   color: #fff;
   padding: 10px 20px;
