@@ -21,16 +21,17 @@ body, html {
 
 body {
   display: flex;
-  justify-content: center;
-  align-items: center;
   min-height: 100vh;
   margin: 0;
 }
 
-container {
+.container {
+  margin-left: 400px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
 
 header {
