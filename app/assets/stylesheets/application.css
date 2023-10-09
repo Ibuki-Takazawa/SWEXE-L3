@@ -14,10 +14,9 @@
  *= require_self
  */
 header {
-  background-color: #1DA1F2; /* Twitterのブルー */
-  padding: 10px;
+  background-color: #1DA1F2;
   position: fixed;
-  width: 200px; /* お好みで調整 */
+  width: 200px;
   height: 100vh;
 }
 
@@ -50,3 +49,4 @@ nav a {
   border-radius: 20px;
   font-weight: bold;
 }
+
