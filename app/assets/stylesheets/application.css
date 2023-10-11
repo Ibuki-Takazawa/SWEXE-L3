@@ -102,8 +102,9 @@ nav a {
 }
 
 #tabs .active a {
-  text-decoration:underline;
-  text-decoration-color: #1DA1F2;
+  border-bottom: solid;
+  border-color: #1DA1F2;
+  border-width: 4px;
 }
 
 #main-content {
